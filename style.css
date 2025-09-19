@@ -1,0 +1,117 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background: #333;
+  color: white;
+}
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar ul li {
+  margin-left: 20px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.navbar ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #00bcd4, #3f51b5);
+  color: white;
+}
+.hero h1 span {
+  color: yellow;
+}
+.hero .btn {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background: yellow;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 60px 10%;
+  text-align: center;
+}
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #3f51b5;
+}
+
+/* Skills */
+.skill-box {
+  margin: 15px 0;
+}
+.skill-bar {
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.skill-bar span {
+  display: block;
+  height: 10px;
+  background: #3f51b5;
+}
+
+/* Contact */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form .btn {
+  background: #3f51b5;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+form .btn:hover {
+  background: #00bcd4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
